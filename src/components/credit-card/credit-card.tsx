@@ -3,8 +3,8 @@ import * as React from 'react';
 import type * as Square from '@square/web-sdk';
 
 // Internals
-import { useForm } from '~/contexts/form';
-import { useEventListener } from '~/hooks/use-event-listener';
+import { useForm } from '../../contexts/form';
+import { useEventListener } from '../../hooks/use-event-listener';
 import { LoadingCard, PayButton } from './credit-card.styles';
 import type {
   CreditCardBase,

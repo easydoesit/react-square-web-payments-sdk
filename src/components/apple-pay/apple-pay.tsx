@@ -3,8 +3,8 @@ import * as React from 'react';
 import type * as Square from '@square/web-sdk';
 
 // Internals
-import { useForm } from '~/contexts/form';
-import { useEventListener } from '~/hooks/use-event-listener';
+import { useForm } from '../../contexts/form';
+import { useEventListener } from '../../hooks/use-event-listener';
 import { ApplePayContainer } from './apple-pay.styles';
 import type { ApplePayProps } from './apple-pay.types';
 

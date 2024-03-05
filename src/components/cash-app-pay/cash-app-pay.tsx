@@ -3,7 +3,7 @@ import * as React from 'react';
 import type * as Square from '@square/web-sdk';
 
 // Internals
-import { useForm } from '~/contexts/form';
+import { useForm } from '../../contexts/form';
 import type { CashAppPayProps } from './cash-app-pay.types';
 
 function CashAppPay({

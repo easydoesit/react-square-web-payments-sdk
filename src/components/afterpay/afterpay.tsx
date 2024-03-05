@@ -3,10 +3,10 @@ import * as React from 'react';
 import type * as Square from '@square/web-sdk';
 
 // Internals
-import { useAfterpay } from '~/contexts/afterpay';
-import { useEventListener } from '~/hooks/use-event-listener';
-import { AfterpayContext, AfterpayProvider } from '~/contexts/afterpay';
-import { useForm } from '~/contexts/form';
+import { useAfterpay } from '../../contexts/afterpay';
+import { useEventListener } from '../../hooks/use-event-listener';
+import { AfterpayContext, AfterpayProvider } from '../../contexts/afterpay';
+import { useForm } from '../../contexts/form';
 import { ButtonLoader } from './afterpay.styles';
 import type {
   AfterpayButtonProps,
